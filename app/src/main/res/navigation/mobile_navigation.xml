@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_descricao">
+
+    <fragment
+        android:id="@+id/nav_descricao"
+        android:name="com.example.avaliacaobimestral.ui.descricao.DescricaoFragment"
+        android:label="@string/menu_descricao"
+        tools:layout="@layout/fragment_descricao" />
+
+    <fragment
+        android:id="@+id/nav_timeDeCasa"
+        android:name="com.example.avaliacaobimestral.ui.timeDaCasa.TimeDaCasaFragment"
+        android:label="@string/menu_timeDeCasa"
+        tools:layout="@layout/fragment_time_da_casa" />
+
+    <fragment
+        android:id="@+id/nav_timeVisitante"
+        android:name="com.example.avaliacaobimestral.ui.timeVisitante.TimeVisitanteFragment"
+        android:label="@string/menu_timeVisitante"
+        tools:layout="@layout/fragment_time_visitante" />
+
+    <fragment
+        android:id="@+id/nav_resultado"
+        android:name="com.example.avaliacaobimestral.ui.resultado.ResultadoFragment"
+        android:label="@string/menu_resultado"
+        tools:layout="@layout/fragment_resultado" />
+
+    <fragment
+        android:id="@+id/nav_ganhador"
+        android:name="com.example.avaliacaobimestral.ui.ganhador.GanhadorFragment"
+        android:label="@string/menu_ganhador"
+        tools:layout="@layout/fragment_ganhador" />
+</navigation>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AvaliacaoBimestral</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Localização Reitoria IFTO</string>
+
+    <string name="menu_descricao">Descrição</string>
+    <string name="menu_timeDeCasa">Time de Casa</string>
+    <string name="menu_timeVisitante">Time Visitante</string>
+    <string name="menu_resultado">Resultado</string>
+    <string name="menu_ganhador">Ganhador</string>
+    <string name="title_activity_map_reitoria">MapReitoria</string>
+</resources>

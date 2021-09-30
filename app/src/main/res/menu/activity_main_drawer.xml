@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_descricao"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_descricao" />
+        <item
+            android:id="@+id/nav_timeDeCasa"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_timeDeCasa" />
+        <item
+            android:id="@+id/nav_timeVisitante"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_timeVisitante" />
+        <item
+            android:id="@+id/nav_resultado"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_resultado" />
+        <item
+            android:id="@+id/nav_ganhador"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ganhador" />
+    </group>
+</menu>
